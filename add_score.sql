@@ -1,0 +1,7 @@
+CREATE TABLE score(
+  `id` INTEGER NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(32) NOT NULL ,
+  `subject` VARCHAR(32) NOT NULL ,
+  `score` INTEGER NOT NULL ,
+  PRIMARY KEY (`id`)
+)
